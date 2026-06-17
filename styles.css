@@ -1,20 +1,8 @@
-/* OVERALL CARD */
 .task {
   display: flex;
   align-items: center;
 }
-.cses-progress-card {
 
-  margin: 25px 0;
-
-  padding: 20px;
-
-  border-radius: 12px;
-
-  border: 1px solid #ddd;
-
-  background: #f8f8f8;
-}
 .cses-filter-bar {
 
   display: flex;
@@ -27,7 +15,6 @@
 
   align-items: center;
 }
-
 .cses-filter-btn {
 
   padding: 10px 18px;
@@ -44,7 +31,6 @@
 
   font-weight: 500;
 }
-
 .cses-filter-btn.active {
 
   background: #4caf50;
@@ -52,6 +38,19 @@
   color: white;
 
   border-color: #4caf50;
+}
+
+.cses-progress-card {
+
+  margin: 25px 0;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  border: 1px solid #ddd;
+
+  background: #f8f8f8;
 }
 .cses-progress-header {
 
@@ -61,14 +60,12 @@
 
   align-items: center;
 }
-
 .cses-progress-title {
 
   font-size: 18px;
 
   font-weight: 700;
 }
-
 .cses-progress-subtitle {
 
   margin-top: 4px;
@@ -77,7 +74,6 @@
 
   font-size: 14px;
 }
-
 .cses-progress-percent {
 
   font-size: 42px;
@@ -86,7 +82,6 @@
 
   color: #2e7d32;
 }
-
 .cses-progress-bar {
 
   margin-top: 15px;
@@ -99,7 +94,6 @@
 
   overflow: hidden;
 }
-
 .cses-progress-fill {
 
   height: 100%;
@@ -107,13 +101,10 @@
   background: #4caf50;
 }
 
-/* SECTION BARS */
-
 .cses-section-progress {
 
   margin: 8px 0 20px;
 }
-
 .cses-section-meta {
 
   display: flex;
@@ -126,7 +117,6 @@
 
   margin-bottom: 4px;
 }
-
 .cses-section-bar {
 
   height: 6px;
@@ -137,7 +127,6 @@
 
   overflow: hidden;
 }
-
 .cses-section-fill {
 
   height: 100%;
@@ -148,13 +137,12 @@
 /* STARS */
 
 .cses-star {
-
   background: none;
   border: none;
 
   cursor: pointer;
 
-  font-size: 28px;      /* bigger */
+  font-size: 28px;      
 
   width: 50px;
 
@@ -168,19 +156,16 @@
   align-items: center;
   justify-content: center;
 }
-
 .cses-star:hover {
 
   color: #ffb400;
 
   transform: scale(1.15);
 }
-
 .cses-star-on {
 
   color: #ffb400;
 }
-
 .cses-section-circle {
 
   min-width: 52px;
