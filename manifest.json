@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "CSES Progress Tracker",
+  "version": "1.0",
+  "description": "Track CSES progress and star important problems",
+
+  "permissions": ["storage"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://cses.fi/problemset/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
