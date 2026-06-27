@@ -12,7 +12,7 @@
       "js": ["content.js"],
       "css": ["styles.css"]
     }
-  ]
+  ],
    "action": {
     "default_popup": "popup/popup.html"
   }
