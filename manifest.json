@@ -13,4 +13,7 @@
       "css": ["styles.css"]
     }
   ]
+   "action": {
+    "default_popup": "popup/popup.html"
+  }
 }
